@@ -28,9 +28,7 @@ namespace AcervoDeFilmes.Controllers
                                     .Select(x => x.ErrorMessage));
 
                     var erro = messages;
-
-                    var x = 1;
-
+                    
                     throw new ApplicationException(erro);
                 }
 
